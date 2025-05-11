@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/PharmaToolsApp">
+    <file alias="qmldir">/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/PharmaToolsApp/qmldir</file>
+  </qresource>
+</RCC>
+

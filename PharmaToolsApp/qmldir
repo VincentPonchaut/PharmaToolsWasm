@@ -1,0 +1,18 @@
+module PharmaToolsApp
+typeinfo appPharmaToolsApp.qmltypes
+prefer :/qt/qml/PharmaToolsApp/
+PageEntrees 1.0 qml/PageEntrees.qml
+PageEntreesSorties 1.0 qml/PageEntreesSorties.qml
+PageInventory 1.0 qml/PageInventory.qml
+PagePreconisations 1.0 qml/PagePreconisations.qml
+PageProduit 1.0 qml/PageProduit.qml
+PageSorties 1.0 qml/PageSorties.qml
+MasterDetails 1.0 qml/MasterDetails.qml
+CustomButton 1.0 qml/components/CustomButton.qml
+Header 1.0 qml/components/Header.qml
+ItemTable 1.0 qml/components/ItemTable.qml
+MultiComboBox 1.0 qml/components/MultiComboBox.qml
+RecoloredImage 1.0 qml/components/RecoloredImage.qml
+SearchTextField 1.0 qml/components/SearchTextField.qml
+Main 1.0 Main.qml
+

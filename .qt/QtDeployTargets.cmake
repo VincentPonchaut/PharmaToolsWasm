@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appPharmaToolsApp_FILE /Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/appPharmaToolsApp.js)
+set(__QT_DEPLOY_TARGET_appPharmaToolsApp_TYPE EXECUTABLE)

@@ -1,0 +1,125 @@
+```json
+[
+  {
+    "id": 0,
+    "user": "CM", 
+    "date": "05/07/2025",
+    "label": "Sortie du 07 mai 2025",
+    "functional_unit": "Code UF 1",
+    "status": "non validé",
+    "items": [
+      {
+        "guid": 1403830,
+        "count": 5,
+        "location": "E  .  7.  2",
+        "validated": false
+      }
+    ]
+  }, {
+    "id": 1,
+    "user": "CM", 
+    "date": "05/09/2025",
+    "label": "Sortie du 09 mai 2025",
+    "functional_unit": "Code UF 2",
+    "status": "lancé",
+    "items": [
+      {
+        "guid": 1404515,
+        "count": 2,
+        "location": "12 .  2.  5.  1",
+        "validated": true
+      }, {
+        "guid": 1418316,
+        "count": 5,
+        "location": "ENT.  4.  2",
+        "validated": true
+      }, {
+        "guid": 748472,
+        "count": 1,
+        "location": "ENT. 26.  5",
+        "validated": false
+      }, {
+        "guid": 765187,
+        "count": 4,
+        "location": "R  . 24.  3",
+        "validated": false
+      }
+    ]
+  }, {
+    "id": 2,
+    "user": "CM", 
+    "date": "05/10/2025",
+    "label": "Sortie du 10 mai 2025",
+    "functional_unit": "Code UF 3",
+    "status": "non validé",
+    "items": [
+      {
+        "guid": 780090,
+        "count": 50,
+        "location": "8  .  5.  7.  1",
+        "validated": false
+      }, {
+        "guid": 815988,
+        "count": 1,
+        "location": "ENT. 34.  3",
+        "validated": true
+      }, {
+        "guid": 1400398,
+        "count": 1,
+        "location": "ENT. 34.  4",
+        "validated": true
+      }, {
+        "guid": 1411951,
+        "count": 1,
+        "location": "E  . 24.  4",
+        "validated": true
+      }, {
+        "guid": 1418429,
+        "count": 3,
+        "location": "11 . 13.  4.  1",
+        "validated": false
+      }, {
+        "guid": 1428240,
+        "count": 8,
+        "location": "ENT. 11.  5",
+        "validated": true
+      }, {
+        "guid": 657151,
+        "count": 5,
+        "location": "E  . 24.  1",
+        "validated": true
+      }, {
+        "guid": 760729,
+        "count": 20,
+        "location": "11 .  6. 15.  1",
+        "validated": false
+      }, {
+        "guid": 762236,
+        "count": 50,
+        "location": "8  . 14.  3.  1",
+        "validated": false
+      }, {
+        "guid": 1461359,
+        "count": 2,
+        "location": "ENT. 13.  6",
+        "validated": false
+      }, {
+        "guid": 529209,
+        "count": 30,
+        "location": "DIA.  4.  3",
+        "validated": false
+      }, {
+        "guid": 742830,
+        "count": 50,
+        "location": "ENT. 30.  5",
+        "validated": false
+      }, {
+        "guid": 746830,
+        "count": 20,
+        "location": "ENT. 32.  5",
+        "validated": false
+      }
+    ]
+  }
+]
+```

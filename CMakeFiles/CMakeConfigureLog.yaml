@@ -1,0 +1,211 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/vincent/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The target system is: Emscripten - 1 - x86
+      The host system is: Darwin - 24.3.0 - arm64
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/vincent/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Users/vincent/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/Users/vincent/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "/Users/vincent/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/Users/vincent/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/Qt6Dependencies.cmake:34 (_qt_internal_find_third_party_dependencies)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:162 (include)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-rrY0Yo"
+      binary: "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-rrY0Yo"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/platforms;/Users/vincent/dev/emsdk/upstream/emscripten/cmake/Modules;/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6;/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-rrY0Yo'
+        
+        Run Build Command(s): /Users/vincent/Qt/Tools/Ninja/ninja -v cmTC_0b6d2
+        [1/2] /Users/vincent/dev/emsdk/upstream/emscripten/em++ -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_0b6d2.dir/src.cxx.o -MF CMakeFiles/cmTC_0b6d2.dir/src.cxx.o.d -o CMakeFiles/cmTC_0b6d2.dir/src.cxx.o -c /Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-rrY0Yo/src.cxx
+        [2/2] : && /Users/vincent/dev/emsdk/upstream/emscripten/em++   CMakeFiles/cmTC_0b6d2.dir/src.cxx.o -o cmTC_0b6d2.js   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/vincent/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Users/vincent/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "/Users/vincent/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:212 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-yqnKvI"
+      binary: "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-yqnKvI"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/platforms;/Users/vincent/dev/emsdk/upstream/emscripten/cmake/Modules;/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6;/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-yqnKvI'
+        
+        Run Build Command(s): /Users/vincent/Qt/Tools/Ninja/ninja -v cmTC_b7bb0
+        [1/2] /Users/vincent/dev/emsdk/upstream/emscripten/em++ -DHAVE_STDATOMIC   -MD -MT CMakeFiles/cmTC_b7bb0.dir/src.cxx.o -MF CMakeFiles/cmTC_b7bb0.dir/src.cxx.o.d -o CMakeFiles/cmTC_b7bb0.dir/src.cxx.o -c /Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-yqnKvI/src.cxx
+        [2/2] : && /Users/vincent/dev/emsdk/upstream/emscripten/em++   CMakeFiles/cmTC_b7bb0.dir/src.cxx.o -o cmTC_b7bb0.js   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/vincent/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Users/vincent/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/FindWrapRt.cmake:23 (check_cxx_source_compiles)"
+      - "/Users/vincent/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:212 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Performing Test HAVE_GETTIME"
+    directories:
+      source: "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-RTLBQi"
+      binary: "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-RTLBQi"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/platforms;/Users/vincent/dev/emsdk/upstream/emscripten/cmake/Modules;/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6;/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "HAVE_GETTIME"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-RTLBQi'
+        
+        Run Build Command(s): /Users/vincent/Qt/Tools/Ninja/ninja -v cmTC_0d6fe
+        [1/2] /Users/vincent/dev/emsdk/upstream/emscripten/em++ -DHAVE_GETTIME   -MD -MT CMakeFiles/cmTC_0d6fe.dir/src.cxx.o -MF CMakeFiles/cmTC_0d6fe.dir/src.cxx.o.d -o CMakeFiles/cmTC_0d6fe.dir/src.cxx.o -c /Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-RTLBQi/src.cxx
+        [2/2] : && /Users/vincent/dev/emsdk/upstream/emscripten/em++   CMakeFiles/cmTC_0d6fe.dir/src.cxx.o -o cmTC_0d6fe.js   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/vincent/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Users/vincent/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/FindWrapRt.cmake:34 (check_cxx_source_compiles)"
+      - "/Users/vincent/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:212 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Performing Test HAVE_SHM_OPEN_SHM_UNLINK"
+    directories:
+      source: "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-vVPBvQ"
+      binary: "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-vVPBvQ"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/platforms;/Users/vincent/dev/emsdk/upstream/emscripten/cmake/Modules;/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6;/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "HAVE_SHM_OPEN_SHM_UNLINK"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-vVPBvQ'
+        
+        Run Build Command(s): /Users/vincent/Qt/Tools/Ninja/ninja -v cmTC_b89d7
+        [1/2] /Users/vincent/dev/emsdk/upstream/emscripten/em++ -DHAVE_SHM_OPEN_SHM_UNLINK   -MD -MT CMakeFiles/cmTC_b89d7.dir/src.cxx.o -MF CMakeFiles/cmTC_b89d7.dir/src.cxx.o.d -o CMakeFiles/cmTC_b89d7.dir/src.cxx.o -c /Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-vVPBvQ/src.cxx
+        [2/2] : && /Users/vincent/dev/emsdk/upstream/emscripten/em++   CMakeFiles/cmTC_b89d7.dir/src.cxx.o -o cmTC_b89d7.js   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/vincent/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Users/vincent/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules/FindEGL.cmake:128 (check_cxx_source_compiles)"
+      - "/Users/vincent/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:39 (_qt_internal_find_third_party_dependencies)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "/Users/vincent/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:137 (find_dependency)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:43 (include)"
+      - "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/Qt6Config.cmake:212 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Performing Test HAVE_EGL"
+    directories:
+      source: "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-RzXAni"
+      binary: "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-RzXAni"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/platforms;/Users/vincent/dev/emsdk/upstream/emscripten/cmake/Modules;/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6;/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6/3rdparty/kwin"
+      QT_ADDITIONAL_PACKAGES_PREFIX_PATH: ""
+      QT_CHAINLOAD_TOOLCHAIN_FILE: ""
+      QT_TOOLCHAIN_INCLUDE_FILE: ""
+      QT_TOOLCHAIN_RELOCATABLE_CMAKE_DIR: "/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake"
+      QT_TOOLCHAIN_RELOCATABLE_PREFIX: ""
+    buildResult:
+      variable: "HAVE_EGL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-RzXAni'
+        
+        Run Build Command(s): /Users/vincent/Qt/Tools/Ninja/ninja -v cmTC_30992
+        [1/2] /Users/vincent/dev/emsdk/upstream/emscripten/em++ -DHAVE_EGL   -MD -MT CMakeFiles/cmTC_30992.dir/src.cxx.o -MF CMakeFiles/cmTC_30992.dir/src.cxx.o.d -o CMakeFiles/cmTC_30992.dir/src.cxx.o -c /Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/CMakeFiles/CMakeScratch/TryCompile-RzXAni/src.cxx
+        [2/2] : && /Users/vincent/dev/emsdk/upstream/emscripten/em++   CMakeFiles/cmTC_30992.dir/src.cxx.o -o cmTC_30992.js   && :
+        
+      exitCode: 0
+...

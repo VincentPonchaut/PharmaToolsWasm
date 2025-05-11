@@ -1,0 +1,46 @@
+<RCC>
+  <qresource prefix="/qt/qml/PharmaToolsApp/">
+    <file alias="qml/main.qml">/Users/vincent/dev/pharmatools/app/qml/main.qml</file>
+    <file alias="qml/mainLogin.qml">/Users/vincent/dev/pharmatools/app/qml/mainLogin.qml</file>
+    <file alias="qml/PageEntrees.qml">/Users/vincent/dev/pharmatools/app/qml/PageEntrees.qml</file>
+    <file alias="qml/PageEntreesSorties.qml">/Users/vincent/dev/pharmatools/app/qml/PageEntreesSorties.qml</file>
+    <file alias="qml/PageInventory.qml">/Users/vincent/dev/pharmatools/app/qml/PageInventory.qml</file>
+    <file alias="qml/PagePreconisations.qml">/Users/vincent/dev/pharmatools/app/qml/PagePreconisations.qml</file>
+    <file alias="qml/PageProduit.qml">/Users/vincent/dev/pharmatools/app/qml/PageProduit.qml</file>
+    <file alias="qml/PageSorties.qml">/Users/vincent/dev/pharmatools/app/qml/PageSorties.qml</file>
+    <file alias="qml/MasterDetails.qml">/Users/vincent/dev/pharmatools/app/qml/MasterDetails.qml</file>
+    <file alias="qml/components/CustomButton.qml">/Users/vincent/dev/pharmatools/app/qml/components/CustomButton.qml</file>
+    <file alias="qml/components/Header.qml">/Users/vincent/dev/pharmatools/app/qml/components/Header.qml</file>
+    <file alias="qml/components/ItemTable.qml">/Users/vincent/dev/pharmatools/app/qml/components/ItemTable.qml</file>
+    <file alias="qml/components/MultiComboBox.qml">/Users/vincent/dev/pharmatools/app/qml/components/MultiComboBox.qml</file>
+    <file alias="qml/components/RecoloredImage.qml">/Users/vincent/dev/pharmatools/app/qml/components/RecoloredImage.qml</file>
+    <file alias="qml/components/SearchTextField.qml">/Users/vincent/dev/pharmatools/app/qml/components/SearchTextField.qml</file>
+    <file alias="Main.qml">/Users/vincent/dev/pharmatools/app/Main.qml</file>
+    <file alias="qml/fakedata.js">/Users/vincent/dev/pharmatools/app/qml/fakedata.js</file>
+    <file alias="qml/Please.js">/Users/vincent/dev/pharmatools/app/qml/Please.js</file>
+    <file alias="qml/inventory.json">/Users/vincent/dev/pharmatools/app/qml/inventory.json</file>
+    <file alias="qml/sorties.json">/Users/vincent/dev/pharmatools/app/qml/sorties.json</file>
+    <file alias="fonts/Montserrat-VariableFont_wght.ttf">/Users/vincent/dev/pharmatools/app/fonts/Montserrat-VariableFont_wght.ttf</file>
+    <file alias="fonts/PTSansNarrow-Regular.ttf">/Users/vincent/dev/pharmatools/app/fonts/PTSansNarrow-Regular.ttf</file>
+    <file alias="fonts/RobotoMono-VariableFont_wght.ttf">/Users/vincent/dev/pharmatools/app/fonts/RobotoMono-VariableFont_wght.ttf</file>
+    <file alias="icons/ico_beaker.svg">/Users/vincent/dev/pharmatools/app/icons/ico_beaker.svg</file>
+    <file alias="icons/ico_box_in.svg">/Users/vincent/dev/pharmatools/app/icons/ico_box_in.svg</file>
+    <file alias="icons/ico_box_out.svg">/Users/vincent/dev/pharmatools/app/icons/ico_box_out.svg</file>
+    <file alias="icons/ico_cart.svg">/Users/vincent/dev/pharmatools/app/icons/ico_cart.svg</file>
+    <file alias="icons/ico_check.svg">/Users/vincent/dev/pharmatools/app/icons/ico_check.svg</file>
+    <file alias="icons/ico_cross.svg">/Users/vincent/dev/pharmatools/app/icons/ico_cross.svg</file>
+    <file alias="icons/ico_cueillette.svg">/Users/vincent/dev/pharmatools/app/icons/ico_cueillette.svg</file>
+    <file alias="icons/ico_edit_stock.svg">/Users/vincent/dev/pharmatools/app/icons/ico_edit_stock.svg</file>
+    <file alias="icons/ico_filter.svg">/Users/vincent/dev/pharmatools/app/icons/ico_filter.svg</file>
+    <file alias="icons/ico_hourglass.svg">/Users/vincent/dev/pharmatools/app/icons/ico_hourglass.svg</file>
+    <file alias="icons/ico_inout.svg">/Users/vincent/dev/pharmatools/app/icons/ico_inout.svg</file>
+    <file alias="icons/ico_inventory.svg">/Users/vincent/dev/pharmatools/app/icons/ico_inventory.svg</file>
+    <file alias="icons/ico_label.svg">/Users/vincent/dev/pharmatools/app/icons/ico_label.svg</file>
+    <file alias="icons/ico_order.svg">/Users/vincent/dev/pharmatools/app/icons/ico_order.svg</file>
+    <file alias="icons/ico_plus.svg">/Users/vincent/dev/pharmatools/app/icons/ico_plus.svg</file>
+    <file alias="icons/ico_print.svg">/Users/vincent/dev/pharmatools/app/icons/ico_print.svg</file>
+    <file alias="icons/ico_search.svg">/Users/vincent/dev/pharmatools/app/icons/ico_search.svg</file>
+    <file alias="icons/ico_warning.svg">/Users/vincent/dev/pharmatools/app/icons/ico_warning.svg</file>
+  </qresource>
+</RCC>
+

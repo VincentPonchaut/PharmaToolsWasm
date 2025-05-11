@@ -1,0 +1,41 @@
+
+set(target "appPharmaToolsApp")
+set(working_dir "/Users/vincent/dev/pharmatools/app")
+set(src_and_dest_list
+    "/Users/vincent/dev/pharmatools/app/qml/main.qml"
+    "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/PharmaToolsApp/qml/main.qml"
+    "/Users/vincent/dev/pharmatools/app/qml/mainLogin.qml"
+    "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/PharmaToolsApp/qml/mainLogin.qml"
+    "/Users/vincent/dev/pharmatools/app/qml/PageEntrees.qml"
+    "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/PharmaToolsApp/qml/PageEntrees.qml"
+    "/Users/vincent/dev/pharmatools/app/qml/PageEntreesSorties.qml"
+    "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/PharmaToolsApp/qml/PageEntreesSorties.qml"
+    "/Users/vincent/dev/pharmatools/app/qml/PageInventory.qml"
+    "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/PharmaToolsApp/qml/PageInventory.qml"
+    "/Users/vincent/dev/pharmatools/app/qml/PagePreconisations.qml"
+    "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/PharmaToolsApp/qml/PagePreconisations.qml"
+    "/Users/vincent/dev/pharmatools/app/qml/PageProduit.qml"
+    "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/PharmaToolsApp/qml/PageProduit.qml"
+    "/Users/vincent/dev/pharmatools/app/qml/PageSorties.qml"
+    "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/PharmaToolsApp/qml/PageSorties.qml"
+    "/Users/vincent/dev/pharmatools/app/qml/MasterDetails.qml"
+    "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/PharmaToolsApp/qml/MasterDetails.qml"
+    "/Users/vincent/dev/pharmatools/app/qml/components/CustomButton.qml"
+    "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/PharmaToolsApp/qml/components/CustomButton.qml"
+    "/Users/vincent/dev/pharmatools/app/qml/components/Header.qml"
+    "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/PharmaToolsApp/qml/components/Header.qml"
+    "/Users/vincent/dev/pharmatools/app/qml/components/ItemTable.qml"
+    "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/PharmaToolsApp/qml/components/ItemTable.qml"
+    "/Users/vincent/dev/pharmatools/app/qml/components/MultiComboBox.qml"
+    "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/PharmaToolsApp/qml/components/MultiComboBox.qml"
+    "/Users/vincent/dev/pharmatools/app/qml/components/RecoloredImage.qml"
+    "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/PharmaToolsApp/qml/components/RecoloredImage.qml"
+    "/Users/vincent/dev/pharmatools/app/qml/components/SearchTextField.qml"
+    "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/PharmaToolsApp/qml/components/SearchTextField.qml"
+    "/Users/vincent/dev/pharmatools/app/Main.qml"
+    "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/PharmaToolsApp/Main.qml"
+    "/Users/vincent/dev/pharmatools/app/qml/fakedata.js"
+    "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/PharmaToolsApp/qml/fakedata.js"
+
+)
+set(timestamp_file "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.qt/appPharmaToolsApp_qml.txt")

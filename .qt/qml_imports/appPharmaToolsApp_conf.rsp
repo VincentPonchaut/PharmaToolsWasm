@@ -1,0 +1,15 @@
+-rootPath
+/Users/vincent/dev/pharmatools/app
+-cmake-output
+-output-file
+/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.qt/qml_imports/appPharmaToolsApp_conf.cmake
+-importPath
+/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/PharmaToolsApp
+-importPath
+/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release
+-importPath
+/Users/vincent/Qt/6.9.0/wasm_multithread/qml
+-qrcFiles
+/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.qt/rcc/qmake_PharmaToolsApp.qrc
+/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.qt/rcc/appPharmaToolsApp_raw_qml_0.qrc
+/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.qt/rcc/appPharmaToolsApp_raw_qml_0_extra_qmldirs.qrc

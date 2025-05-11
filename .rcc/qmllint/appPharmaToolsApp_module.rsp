@@ -1,0 +1,12 @@
+-I
+/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release
+-I
+/Users/vincent/Qt/6.9.0/wasm_multithread/qml
+--resource
+/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.qt/rcc/qmake_PharmaToolsApp.qrc
+--resource
+/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.qt/rcc/appPharmaToolsApp_raw_qml_0.qrc
+--resource
+/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.qt/rcc/appPharmaToolsApp_raw_qml_0_extra_qmldirs.qrc
+--module
+PharmaToolsApp

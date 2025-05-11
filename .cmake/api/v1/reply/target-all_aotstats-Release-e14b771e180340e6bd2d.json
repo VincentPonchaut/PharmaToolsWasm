@@ -1,0 +1,219 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"_qt_internal_deferred_aotstats_setup"
+		],
+		"files" : 
+		[
+			"/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"/Users/vincent/Qt/6.9.0/wasm_multithread/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake:1103:EVAL",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"file" : 2,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1210,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "module_appPharmaToolsApp_aotstats_target::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+	"name" : "all_aotstats",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/CMakeFiles/all_aotstats",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/CMakeFiles/all_aotstats.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.rcc/qmlcache/all_aotstats.aotstats.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.rcc/qmlcache/module_appPharmaToolsApp.aotstats.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.rcc/qmlcache/appPharmaToolsApp_Main_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.rcc/qmlcache/appPharmaToolsApp_qml/MasterDetails_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.rcc/qmlcache/appPharmaToolsApp_qml/PageEntreesSorties_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.rcc/qmlcache/appPharmaToolsApp_qml/PageEntrees_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.rcc/qmlcache/appPharmaToolsApp_qml/PageInventory_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.rcc/qmlcache/appPharmaToolsApp_qml/PagePreconisations_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.rcc/qmlcache/appPharmaToolsApp_qml/PageProduit_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.rcc/qmlcache/appPharmaToolsApp_qml/PageSorties_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.rcc/qmlcache/appPharmaToolsApp_qml/components/CustomButton_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.rcc/qmlcache/appPharmaToolsApp_qml/components/Header_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.rcc/qmlcache/appPharmaToolsApp_qml/components/ItemTable_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.rcc/qmlcache/appPharmaToolsApp_qml/components/MultiComboBox_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.rcc/qmlcache/appPharmaToolsApp_qml/components/RecoloredImage_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.rcc/qmlcache/appPharmaToolsApp_qml/components/SearchTextField_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.rcc/qmlcache/appPharmaToolsApp_qml/mainLogin_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/.rcc/qmlcache/appPharmaToolsApp_qml/main_qml.cpp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release/apppharmatoolsapp_qmltyperegistrations.cpp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

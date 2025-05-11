@@ -1,0 +1,187 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-8f708eabd4a6520837e9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PharmaToolsApp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Release-e14b771e180340e6bd2d.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Release-0c2eb62d93a4d5210e30.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Release-75481899191e9d20f830.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Release-cc59841b3801592a9602.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Release-57f76279128e0a6d42cb.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appPharmaToolsApp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appPharmaToolsApp-Release-156e76f6dfa4101eb880.json",
+					"name" : "appPharmaToolsApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appPharmaToolsApp_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appPharmaToolsApp_autogen-Release-53cf7f1c201f3abf27c6.json",
+					"name" : "appPharmaToolsApp_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appPharmaToolsApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appPharmaToolsApp_autogen_timestamp_deps-Release-89d26808ff047b73660c.json",
+					"name" : "appPharmaToolsApp_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appPharmaToolsApp_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appPharmaToolsApp_copy_qml-Release-629b4e8969e864f756c4.json",
+					"name" : "appPharmaToolsApp_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appPharmaToolsApp_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appPharmaToolsApp_copy_res-Release-8bc447f201095499f799.json",
+					"name" : "appPharmaToolsApp_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appPharmaToolsApp_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appPharmaToolsApp_qmllint-Release-cbe96816abca8aaf43cb.json",
+					"name" : "appPharmaToolsApp_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appPharmaToolsApp_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appPharmaToolsApp_qmllint_json-Release-284f892fc9495f85a98b.json",
+					"name" : "appPharmaToolsApp_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appPharmaToolsApp_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appPharmaToolsApp_qmllint_module-Release-4e6b175127ceddc95383.json",
+					"name" : "appPharmaToolsApp_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appPharmaToolsApp_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appPharmaToolsApp_qmltyperegistration-Release-f17e75138ca3257a3183.json",
+					"name" : "appPharmaToolsApp_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appPharmaToolsApp_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appPharmaToolsApp_aotstats_target-Release-75c36a9ff272adc9acbd.json",
+					"name" : "module_appPharmaToolsApp_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/vincent/dev/pharmatools/app/PharmaToolsApp/build/WebAssembly_Qt_6_9_0_multi_threaded-Release",
+		"source" : "/Users/vincent/dev/pharmatools/app"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
