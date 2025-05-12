@@ -40,6 +40,15 @@ MasterDetails {
 
         _pageSorties.selectedItemChanged()
     }
+
+    function modifySortie(field, value) {
+        selectedItem[field] = value
+        _pageSorties.selectedItemChanged()
+
+        // Also modify the database
+        database.sorties[database.sorties.indexOf(selectedItem)][field] = value
+        database.sortiesChanged()
+    }
     
     // ---------------------------------------------------------------
     // View
@@ -90,9 +99,8 @@ MasterDetails {
         color: "transparent"
         anchors.fill: parent
         
-        required property var modelData
-        property var validatedItems: modelData.items.filter(item => item.validated === true)
-        property var notYetValidatedItems: modelData.items.filter(item => item.validated === false)
+        property var validatedItems: selectedItem.items.filter(item => item.validated === true)
+        property var notYetValidatedItems: selectedItem.items.filter(item => item.validated === false)
 
         // ----------------------
         // Left part
@@ -103,6 +111,7 @@ MasterDetails {
             anchors.top: parent.top
             anchors.bottom: parent.bottom
             anchors.left: parent.left
+            width: parent.width * 0.56
             spacing: 30
 
             // 1. Afficher les champs de la sortie (editables ou non)
@@ -110,34 +119,46 @@ MasterDetails {
                 id: _sortieDetailsBox
                 title: "Informations"
 
-                Layout.preferredWidth: 430
+                Layout.fillWidth: true
                 Layout.preferredHeight: 180
 
                 GridLayout {
                     id: _sortieDetails
                     anchors.fill: parent
-                    columns: 3
+                    columns: 4
 
                     LabelChamp { text: "Intitulé" }
-                    TextField { text: modelData.label; onTextChanged: selectedItem.label = text }
-                    Filler {}
+                    TextField {
+                        text: selectedItem.label;
+                        onTextEdited: modifySortie("label", text)
+                    }
+                    // Filler {}
 
                     LabelChamp { text: "Date" }
-                    TextField { text: new Date(modelData.date).toLocaleDateString('fr-FR'); onTextChanged: selectedItem.date = text }
-                    Filler {}
+                    TextField {
+                        text: new Date(selectedItem.date).toLocaleDateString('fr-FR');
+                        onTextEdited: modifySortie("date", text)
+                    }
+                    // Filler {}
 
                     LabelChamp { text: "Utilisateur" }
-                    TextField { text: modelData.user; onTextChanged: selectedItem.user = text }
-                    Filler {}
+                    TextField {
+                        text: selectedItem.user;
+                        onTextEdited: modifySortie("user", text)
+                    }
+                    // Filler {}
 
                     LabelChamp { text: "Unité fonctionnelle" }
-                    TextField { text: modelData.functional_unit; onTextChanged: selectedItem.functional_unit = text }
-                    Filler {}
+                    TextField {
+                        text: selectedItem.functional_unit;
+                        onTextEdited: modifySortie("functional_unit", text)
+                    }
+                    // Filler {}
                 }
 
                 DisablingOverlay {
                     id: _disabledOverlay
-                    visible: modelData.status !== "new"
+                    visible: selectedItem.status !== "new"
 
                     anchors.fill: parent
                     anchors.margins: -12
@@ -149,13 +170,15 @@ MasterDetails {
                 title: "A Valider"
                 icon: images.hourglass
                 model: notYetValidatedItems
+                showValidationHeader: true
 
                 // Blink where focus is needed
-                blinking: modelData.status === "new" || notYetValidatedItems.length > 0
+                blinking: selectedItem.status === "new" || notYetValidatedItems.length > 0
 
                 tableActions: Action {
                     text: "Lancer cette liste"
-                    // enabled: modelData.status === "new" && notYetValidatedItems.length > 0
+                    enabled: notYetValidatedItems.length > 0
+                    // enabled: selectedItem.status === "new" && notYetValidatedItems.length > 0
                     icon.source: "../icons/ico_check.svg"
                     onTriggered: (source) => {
                                      _dialogListeLancee.open()
@@ -164,7 +187,7 @@ MasterDetails {
                 rowActions: Action {
                     text: ""
                     icon.source: images.check
-                    enabled: modelData.status === "lancé" || modelData.status === "non validé"
+                    enabled: selectedItem.status === "lancé" || selectedItem.status === "non validé"
                     onTriggered: (source) => {
                                      // console.log("Ok action triggered", source, source.rowIndex)
                                      validateLineInCurrent(source.rowIndex)
@@ -187,17 +210,18 @@ MasterDetails {
                     tableActions: Action {
                         id: _finaliserAction
                         text: "Finaliser"
-                        enabled: (modelData.status === "lancé" || modelData.status === "non validé")
+                        enabled: (selectedItem.status === "lancé" || selectedItem.status === "non validé")
                                  && notYetValidatedItems.length === 0
                         icon.source: "../icons/ico_check.svg"
                         onTriggered: (source) => {
                                          console.assert(false, "Finaliser action triggered", source)
+                                         _finaliserDialog.open()
                                      }
                     }
                 }
 
                 DisablingOverlay {
-                    visible: modelData.status === "new" && notYetValidatedItems.length === 0
+                    visible: selectedItem.status === "new" && notYetValidatedItems.length === 0
                     opacity: 0.65
                     anchors.fill: parent
                 }
@@ -208,14 +232,14 @@ MasterDetails {
         // Right part
         // ----------------------
         Pane {
-            visible: modelData.status === "new"
+            visible: selectedItem.status === "new"
 
             anchors.right: parent.right
             anchors.top: parent.top
             anchors.bottom: parent.bottom
-            width: 770
+            width: parent.width * 0.44
             // padding: 0
-            leftPadding: -70
+            // leftPadding: -70
 
             scale: 0.9
             anchors.rightMargin: -60
@@ -231,7 +255,7 @@ MasterDetails {
                     width: height
                     rotation: -45
                     anchors.verticalCenter: parent.verticalCenter
-                    anchors.verticalCenterOffset: -parent.height * 0.07
+                    anchors.verticalCenterOffset: -parent.height * 0.13
                     anchors.horizontalCenter: parent.left
                 }
             }
@@ -246,6 +270,7 @@ MasterDetails {
                 centerTableView: true
 
                 columns: [
+                    TableModelColumn { display: "guid" },
                     TableModelColumn { display: "desc" },
                     TableModelColumn { display: "ref" }
                 ]
@@ -273,7 +298,7 @@ MasterDetails {
         }
         // // Debug...
         // Label {
-        //     text: JSON.stringify(modelData, null, 2)
+        //     text: JSON.stringify(selectedItem, null, 2)
         //     font.family: monoFont.name
         //     anchors.right: parent.right
         // }
@@ -409,36 +434,120 @@ MasterDetails {
                                                          })
                 return max
             }
+            property var columnChars: [
+                80,
+                360,
+                80,
+                80
+            ]
+            property var columnAlignments: [
+                Text.AlignRight,
+                Text.AlignLeft,
+                Text.AlignRight,
+                Text.AlignRight
+            ]
 
             section.property: "location"
             section.delegate: Label {
                 text: "" + section
+                width: parent.width
+                height: 90
                 //                text: "Emplacement : " + section
-                topPadding: 20
+                topPadding: 30
                 font.pointSize: 20
-                font.underline: true
+                font.underline: false
                 font.bold: true
+
+                Rectangle {
+                    width: parent.width
+                    height: 1
+                    color: "black"
+                    opacity: 0.5
+                    y: 60
+                }
+
+                RowLayout {
+                    y: 60
+                    width: parent.width
+                    height: 50
+
+                    Item {
+                        Layout.preferredWidth: 40
+                    }
+
+                    Repeater {
+                        model: [
+                            "Code Produit",
+                            "Produit",
+                            "REF",
+                            "Quantité"
+                        ]
+
+                        Label {
+                            text: modelData
+                            font.pointSize: 16
+                            font.bold: true
+                            font.underline: true
+                            horizontalAlignment: Text.AlignHCenter
+                            topPadding: 10
+
+                            Layout.preferredWidth: _dialogListeLanceeListView.columnChars[index]
+                            Layout.fillWidth: true
+                            Layout.fillHeight: true
+                        }
+                    }
+                }
             }
 
-            delegate: Label {
-                text: {
-                    // Code produit, dénomination, Ref, xQuantité
-                }
-//                text: String(modelData.count).padStart(_dialogListeLanceeListView.maxCountLetters, " ") + " x " + database.findByGuid(modelData.guid).desc
-                // height: 60
+            delegate: Item {
+                id: _dialogListeLanceeListViewDelegate
+                width: parent.width
+                height: 50
 
-                topPadding: 20
-                bottomPadding: 20
-                leftPadding: 50
+                required property var modelData
+                property var theItem: database.findByGuid(modelData.guid)
 
-                font.family: monoFont.name
-                font.pointSize: 14
-                font.weight: Font.DemiBold
 
-                verticalAlignment: Text.AlignVCenter
+                RowLayout {
+                    anchors.fill: parent
 
-                CheckBox {
-                    anchors.verticalCenter: parent.verticalCenter
+                    CheckBox {
+                        // anchors.verticalCenter: parent.verticalCenter
+                        Layout.alignment: Qt.AlignVCenter
+                    }
+
+                    Repeater {
+                        model: [
+                            theItem.guid,
+                            theItem.desc,
+                            theItem.ref,
+                            modelData.count,
+                        ]
+
+                        Label {
+                            id: _lalala
+                            required property var modelData
+                            required property int index
+                            // height: parent.height
+                            // width: columnChars[_lalala.index]
+                            Layout.preferredWidth: _dialogListeLanceeListView.columnChars[_lalala.index]
+                            Layout.fillHeight: true
+
+                            text: String(modelData)
+//                            text: String(modelData).padEnd(_dialogListeLanceeListViewDelegate.columnChars[_lalala.index]," ")
+
+                            topPadding: 20
+                            bottomPadding: 20
+                            leftPadding: 50
+
+                            font.family: monoFont.name
+                            font.pointSize: 14
+                            font.weight: Font.DemiBold
+
+                            horizontalAlignment: _dialogListeLanceeListView.columnAlignments[_lalala.index]
+                            verticalAlignment: Text.AlignVCenter
+                        }
+                    }
                 }
             }
         }
@@ -461,6 +570,46 @@ MasterDetails {
                         _dialogListeLancee.close()
                         selectedItem.status = "lancé"
                         _pageSorties.selectedItemChanged()
+
+                        let html = ""
+                        // Generate a default HTML file
+                        html += "<html>"
+                        html += "<head>"
+                        html += "<title>" + selectedItem["label"] + "</title>"
+                        html += "<style>"
+                        html += "body { font-family: Arial, sans-serif; }"
+                        html += "h1 { color: #333; }"
+                        html += "table { border-collapse: collapse; width: 100%; font-size: 12px; }"
+                        html += "th, td { border: 1px solid #ddd; padding: 8px; }"
+                        html += "th { background-color: #f2f2f2; }"
+                        html += "</style>"
+                        html += "</head>"
+                        html += "<body>"
+                        html += "<h1>" + selectedItem["label"] + "</h1>"
+                        html += "<h4>Par : " + selectedItem["user"] + "</h4>"
+                        html += "<h4>Service : " + selectedItem["functional_unit"] + "</h4>"
+                        html += "<table>"
+                        html += "<tr>"
+                        html += "<th>Produit</th>"
+                        html += "<th>Référence</th>"
+                        html += "<th>Quantité</th>"
+                        html += "<th>Emplacement</th>"
+                        html += "</tr>"
+                        selectedItem["items"].forEach((item) => {
+                                                          let itemData = database.findByGuid(item.guid)
+                                                          html += "<tr>"
+                                                          html += "<td>" + itemData.desc + "</td>"
+                                                          html += "<td>" + itemData.ref + "</td>"
+                                                          html += "<td>" + item.count + "</td>"
+                                                          html += "<td>" + item.location + "</td>"
+                                                          //                            html += "<td>" + _itemDelegateEmplacementComboBox.modelData + "</td>"
+                                                          html += "</tr>"
+                                                      })
+                        html += "</table>"
+                        html += "</body>"
+                        html += "</html>"
+
+                        PrintHelper.printHtml(html)
                     }
                 }
 
@@ -510,7 +659,8 @@ MasterDetails {
                 }
 
                 LabelMono {
-                    text: "" + database.findByGuid(_validateLineDialog.lineToValidate.guid).desc
+                    text: _validateLineDialog.lineToValidate ? "" + database.findByGuid(_validateLineDialog.lineToValidate.guid).desc
+                                                             : ""
                     anchors.horizontalCenter: parent.horizontalCenter
                 }
 
@@ -532,8 +682,9 @@ MasterDetails {
                         validator: IntValidator { bottom: 0 }
 
                         Binding on text {
-                            when: !isNaN(_validateLineDialog.lineToValidate.count)
-                            value: String(_validateLineDialog.lineToValidate.count)
+                            when: _validateLineDialog.lineToValidate && !isNaN(_validateLineDialog.lineToValidate.count)
+                            value: _validateLineDialog.lineToValidate ? String(_validateLineDialog.lineToValidate.count)
+                                                                      : ""
                         }
                         onTextChanged: {
                             if (text.length === 0) {
@@ -552,6 +703,9 @@ MasterDetails {
                 }
                 LabelMono {
                     text: {
+                        if (!_validateLineDialog.lineToValidate)
+                            return ""
+
                         let qtyAvant = database.quantityAtLocation(_validateLineDialog.lineToValidate.guid)
                         let qtyApres = qtyAvant - _validateLineDialog.lineToValidate.count
 
@@ -567,6 +721,7 @@ MasterDetails {
             }
 
             footer: Pane {
+                width: parent.width
                 // palette.window: colors.accent // TODO padding
 
                 Row {
@@ -575,6 +730,7 @@ MasterDetails {
 
                     CustomButton {
                         text: "Oui"
+                        font.pointSize: 12
                         icon.source: images.check
                         color: "green"
                         onClicked: {
@@ -586,9 +742,90 @@ MasterDetails {
 
                     CustomButton {
                         text: "Annuler"
+                        font.pointSize: 12
                         icon.source: images.cross
                         color: "#8b8b8e"
                         onClicked: _validateLineDialog.close()
+                    }
+                }
+            }
+        }
+    }
+
+    Dialog {
+        id: _finaliserDialog
+        modal: true
+        // visible: true
+
+        x: parent.width / 2 - width / 2
+        y: parent.height / 2 - height / 2
+
+        padding: 20
+        height: 250
+        width: 650
+
+        onAccepted: {
+            // TODO finaliser la liste
+            console.log("Finaliser la liste")
+            masterPaneModel = masterPaneModel.filter(item => item.id !== selectedItem.id)
+            selectedItem = null
+        }
+
+        Page {
+            anchors.fill: parent
+            clip: true
+
+            header: Header {
+                text: "Finaliser la liste"
+                font.underline: true
+            }
+
+            Column {
+                anchors.fill: parent
+                anchors.margins: 20
+                spacing: 20
+
+                Label {
+                    text: "Êtes-vous sûr de vouloir finaliser cette liste ?"
+                    width: parent.width
+                    font.pointSize: 16
+                    font.bold: true
+                    horizontalAlignment: Text.AlignHCenter
+                }
+                Label {
+                    text: "Elle sera supprimée des Sorties en cours"
+                    width: parent.width
+                    font.pointSize: 14
+                    horizontalAlignment: Text.AlignHCenter
+                }
+            }
+
+            footer: Pane {
+                width: parent.width
+                // palette.window: colors.accent // TODO padding
+
+                Row {
+                    anchors.horizontalCenter: parent.horizontalCenter
+                    spacing: 20
+
+                    CustomButton {
+                        text: "Oui"
+                        font.pointSize: 12
+                        icon.source: images.check
+                        color: "green"
+                        onClicked: {
+                            _finaliserDialog.accepted()
+                            _finaliserDialog.close()
+                            // TODO finaliser la liste
+                        }
+                    }
+
+                    CustomButton {
+                        text: "Annuler"
+                        font.pointSize: 12
+                        icon.source: images.cross
+                        color: "#8b8b8e"
+                        onClicked: _finaliserDialog.close()
                     }
                 }
             }
@@ -700,29 +937,35 @@ MasterDetails {
             width: parent.width
             spacing: 30
 
-            // Line {}
             LabelMono {
                 text: texts[0]
-                Layout.preferredWidth: 280
+                Layout.preferredWidth: 110
+                horizontalAlignment: Text.AlignRight
             }
 
-            // Line{}
+            // Line {}
             LabelMono {
                 text: texts[1]
-                Layout.preferredWidth: 100
+                Layout.preferredWidth: 360
             }
 
             // Line{}
             LabelMono {
                 text: texts[2]
-                Layout.preferredWidth: 70
+                Layout.preferredWidth: 140
+            }
+
+            // Line{}
+            LabelMono {
+                text: texts[3]
+                Layout.preferredWidth: 90
                 horizontalAlignment: Text.AlignRight
             }
 
             // Line{}
             LabelMono {
-                visible: texts.length > 3
-                text: texts[3] ?? ""
+                visible: texts.length > 4
+                text: texts[4] ?? ""
                 Layout.preferredWidth: 90
                 horizontalAlignment: Text.AlignHCenter
             }
@@ -765,10 +1008,11 @@ MasterDetails {
         property list<Action> rowActions: []
         property alias blinking: _animation.running
         property url icon: images.check
+        property bool showValidationHeader: false
 
-        Layout.preferredWidth: 680
+        Layout.preferredWidth: _sortieItems.parent.width
+        Layout.fillWidth: true
         Layout.fillHeight: true
-        // Layout.rightMargin: _sortieItems.width * 0.3
 
         label: Row {
             width: _sortieItems.availableWidth
@@ -844,29 +1088,28 @@ MasterDetails {
                     font.bold: false
                     width: parent.width
                     texts: [
+                        _sortieItemDelegate.modelData.guid,
                         database.findByGuid(_sortieItemDelegate.modelData.guid).desc,
                         _sortieItemDelegate.modelData.location ?? "",
                         _sortieItemDelegate.modelData.count,
                         // String(_sortieItemDelegate.index)
                     ]
-                    // Oula le karma qu'on va se taper apres ca
-                    .concat(_sortieItems.rowActions.length === 0 ? [(_sortieItemDelegate.modelData.validated ? "✅" : "❌")]
-                    : [])
                     actions: _sortieItems.rowActions
                     rowIndex: _sortieItemDelegate.index
                 }
             }
 
             header: TableRow {
+                width: parent.width
                 font.bold: true
                 font.underline: true
                 palette.window: colors.lightBackground
                 texts: [
+                    "Code Produit",
                     "Produit",
                     "Emplacement",
                     "Quantité",
-                    "Validation"
-                ]
+                ].concat(_sortieItems.showValidationHeader ? ["Validation"] : [])
                 rowIndex: -1
             }
         }

@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 27,
-                        "durationMicroseconds": 4959,
+                        "durationMicroseconds": 663,
                         "errorMessage": "Cannot access value for name colors",
                         "functionName": "color",
                         "line": 25
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 16,
-                        "durationMicroseconds": 70,
+                        "durationMicroseconds": 258,
                         "errorMessage": "Cannot access value for name _theButton",
                         "functionName": "color",
                         "line": 39
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 17,
-                        "durationMicroseconds": 5,
+                        "durationMicroseconds": 6,
                         "errorMessage": "Cannot access value for name width",
                         "functionName": "radius",
                         "line": 41

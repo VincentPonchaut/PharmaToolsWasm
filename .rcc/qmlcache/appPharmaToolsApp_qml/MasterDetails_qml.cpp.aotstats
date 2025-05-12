@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 35,
-                        "durationMicroseconds": 103,
+                        "durationMicroseconds": 612,
                         "errorMessage": "Cannot retrieve a non-object type by ID: _masterDetails",
                         "functionName": "masterPaneWidth",
                         "line": 19
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 48,
-                        "durationMicroseconds": 103,
+                        "durationMicroseconds": 406,
                         "errorMessage": "Cannot generate efficient code for LoadClosure",
                         "functionName": "masterPaneDelegateFormatter",
                         "line": 25
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 34,
-                        "durationMicroseconds": 233,
+                        "durationMicroseconds": 167,
                         "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
                         "functionName": "createCallback",
                         "line": 31
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 34,
-                        "durationMicroseconds": 38,
+                        "durationMicroseconds": 31,
                         "errorMessage": "Cannot generate efficient code for LoadClosure",
                         "functionName": "createCallback",
                         "line": 31
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 41,
+                        "durationMicroseconds": 80,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 54
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 37,
-                        "durationMicroseconds": 23,
+                        "durationMicroseconds": 42,
                         "errorMessage": "method masterPaneDelegateFormatter cannot be resolved.",
                         "functionName": "onModelDataChanged",
                         "line": 61
@@ -126,7 +126,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 20,
-                        "durationMicroseconds": 30,
+                        "durationMicroseconds": 19,
                         "errorMessage": "Cannot access value for name selectedItem",
                         "functionName": "model",
                         "line": 90
@@ -137,7 +137,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"fill\".",
                         "functionName": "fill",
-                        "line": 93
+                        "line": 95
                     },
                     {
                         "codegenSuccessfull": false,
@@ -145,7 +145,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"text\".",
                         "functionName": "text",
-                        "line": 97
+                        "line": 99
                     },
                     {
                         "codegenSuccessfull": false,
@@ -153,7 +153,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"family\".",
                         "functionName": "family",
-                        "line": 98
+                        "line": 100
                     },
                     {
                         "codegenSuccessfull": false,
@@ -161,15 +161,15 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"fill\".",
                         "functionName": "fill",
-                        "line": 118
+                        "line": 120
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 31,
-                        "durationMicroseconds": 77,
+                        "durationMicroseconds": 189,
                         "errorMessage": "Cannot access value for name colors",
                         "functionName": "color",
-                        "line": 122
+                        "line": 124
                     },
                     {
                         "codegenSuccessfull": false,
@@ -177,7 +177,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"text\".",
                         "functionName": "text",
-                        "line": 129
+                        "line": 131
                     },
                     {
                         "codegenSuccessfull": false,
@@ -185,7 +185,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"leftPadding\".",
                         "functionName": "leftPadding",
-                        "line": 131
+                        "line": 133
                     },
                     {
                         "codegenSuccessfull": false,
@@ -193,15 +193,15 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"rightPadding\".",
                         "functionName": "rightPadding",
-                        "line": 132
+                        "line": 134
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 44,
-                        "durationMicroseconds": 11,
+                        "durationMicroseconds": 51,
                         "errorMessage": "Cannot access value for name _panelHeader",
                         "functionName": "compactMode",
-                        "line": 137
+                        "line": 139
                     },
                     {
                         "codegenSuccessfull": false,
@@ -209,7 +209,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"visible\".",
                         "functionName": "visible",
-                        "line": 140
+                        "line": 142
                     },
                     {
                         "codegenSuccessfull": false,
@@ -217,7 +217,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"text\".",
                         "functionName": "text",
-                        "line": 142
+                        "line": 144
                     },
                     {
                         "codegenSuccessfull": false,
@@ -225,7 +225,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find signal \"clicked\".",
                         "functionName": "onClicked",
-                        "line": 154
+                        "line": 156
                     },
                     {
                         "codegenSuccessfull": false,
@@ -233,23 +233,23 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"source\".",
                         "functionName": "source",
-                        "line": 144
+                        "line": 146
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 61,
-                        "durationMicroseconds": 7,
+                        "durationMicroseconds": 19,
                         "errorMessage": "Cannot access value for name _panelHeader",
                         "functionName": "when",
-                        "line": 147
+                        "line": 149
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 62,
-                        "durationMicroseconds": 6,
+                        "durationMicroseconds": 22,
                         "errorMessage": "Cannot access value for name _panelHeader",
                         "functionName": "when",
-                        "line": 148
+                        "line": 150
                     },
                     {
                         "codegenSuccessfull": false,
@@ -257,7 +257,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"verticalCenter\".",
                         "functionName": "verticalCenter",
-                        "line": 150
+                        "line": 152
                     },
                     {
                         "codegenSuccessfull": false,
@@ -265,7 +265,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"right\".",
                         "functionName": "right",
-                        "line": 151
+                        "line": 153
                     },
                     {
                         "codegenSuccessfull": false,
@@ -273,31 +273,31 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"rightMargin\".",
                         "functionName": "rightMargin",
-                        "line": 152
+                        "line": 154
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 22,
+                        "durationMicroseconds": 41,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 162
+                        "line": 164
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 37,
-                        "durationMicroseconds": 8,
+                        "durationMicroseconds": 12,
                         "errorMessage": "Cannot access value for name _panelHeader",
                         "functionName": "leftMargin",
-                        "line": 163
+                        "line": 165
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 38,
-                        "durationMicroseconds": 7,
+                        "durationMicroseconds": 8,
                         "errorMessage": "Cannot access value for name _panelHeader",
                         "functionName": "rightMargin",
-                        "line": 164
+                        "line": 166
                     },
                     {
                         "codegenSuccessfull": false,
@@ -305,7 +305,7 @@
                         "durationMicroseconds": 7,
                         "errorMessage": "Cannot access value for name _panelHeader",
                         "functionName": "bottomMargin",
-                        "line": 166
+                        "line": 168
                     }
                 ],
                 "filepath": "MasterDetails.qml"

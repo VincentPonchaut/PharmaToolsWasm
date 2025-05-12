@@ -87,14 +87,16 @@ SplitView {
 
         Repeater {
             id: _detailsPaneRepeater
-            model: selectedItem ? [selectedItem] : 0
+            model: selectedItem ? 1 : 0
+
+            // property var modelData: selectedItem
 
             delegate: ScrollView {
                 anchors.fill: parent
 
                 TextArea {
                     readOnly: true
-                    text: JSON.stringify(modelData,null,2)
+                    text: JSON.stringify(selectedItem,null,2)
                     font.family: monoFont.name
                 }
             }

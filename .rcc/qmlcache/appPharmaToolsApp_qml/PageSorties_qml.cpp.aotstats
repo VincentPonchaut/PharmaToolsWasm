@@ -29,19 +29,27 @@
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 22,
-                        "durationMicroseconds": 54,
-                        "errorMessage": "Cannot retrieve a non-object type by ID: _pageSorties",
-                        "functionName": "masterPaneWidth",
-                        "line": 48
+                        "column": 5,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Functions without type annotations won't be compiled",
+                        "functionName": "modifySortie",
+                        "line": 44
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 22,
-                        "durationMicroseconds": 34,
+                        "durationMicroseconds": 355,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: _pageSorties",
+                        "functionName": "masterPaneWidth",
+                        "line": 57
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 22,
+                        "durationMicroseconds": 35,
                         "errorMessage": "Cannot access value for name database",
                         "functionName": "masterPaneModel",
-                        "line": 49
+                        "line": 58
                     },
                     {
                         "codegenSuccessfull": false,
@@ -49,31 +57,31 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Functions without type annotations won't be compiled",
                         "functionName": "masterPaneDelegateFormatter",
-                        "line": 52
+                        "line": 61
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 35,
-                        "durationMicroseconds": 49,
+                        "durationMicroseconds": 317,
                         "errorMessage": "Cannot generate efficient code for LoadClosure",
                         "functionName": "masterPaneDelegateFormatter",
-                        "line": 52
+                        "line": 61
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 21,
-                        "durationMicroseconds": 171,
+                        "durationMicroseconds": 201,
                         "errorMessage": "Cannot access value for name database",
                         "functionName": "createCallback",
-                        "line": 65
+                        "line": 74
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 21,
-                        "durationMicroseconds": 21,
+                        "durationMicroseconds": 20,
                         "errorMessage": "Cannot generate efficient code for LoadClosure",
                         "functionName": "createCallback",
-                        "line": 65
+                        "line": 74
                     },
                     {
                         "codegenSuccessfull": false,
@@ -81,23 +89,23 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Cannot resolve property type  for binding on detailsPaneTitle.",
                         "functionName": "detailsPaneTitle",
-                        "line": 88
+                        "line": 97
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 38,
-                        "durationMicroseconds": 8,
-                        "errorMessage": "Cannot access value for name modelData",
+                        "durationMicroseconds": 13,
+                        "errorMessage": "Cannot access value for name selectedItem",
                         "functionName": "validatedItems",
-                        "line": 94
+                        "line": 102
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 44,
-                        "durationMicroseconds": 5,
-                        "errorMessage": "Cannot access value for name modelData",
+                        "durationMicroseconds": 9,
+                        "errorMessage": "Cannot access value for name selectedItem",
                         "functionName": "notYetValidatedItems",
-                        "line": 95
+                        "line": 103
                     },
                     {
                         "codegenSuccessfull": false,
@@ -105,7 +113,15 @@
                         "durationMicroseconds": 3,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "fill",
-                        "line": 91
+                        "line": 100
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 5,
+                        "errorMessage": "Cannot access value for name parent",
+                        "functionName": "width",
+                        "line": 114
                     },
                     {
                         "codegenSuccessfull": false,
@@ -113,7 +129,7 @@
                         "durationMicroseconds": 4,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "top",
-                        "line": 103
+                        "line": 111
                     },
                     {
                         "codegenSuccessfull": false,
@@ -121,7 +137,7 @@
                         "durationMicroseconds": 3,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "bottom",
-                        "line": 104
+                        "line": 112
                     },
                     {
                         "codegenSuccessfull": false,
@@ -129,7 +145,7 @@
                         "durationMicroseconds": 3,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "left",
-                        "line": 105
+                        "line": 113
                     },
                     {
                         "codegenSuccessfull": false,
@@ -137,87 +153,87 @@
                         "durationMicroseconds": 2,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "fill",
-                        "line": 118
+                        "line": 127
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 31,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"text\".",
+                        "functionName": "text",
+                        "line": 132
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 39,
                         "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"text\".",
-                        "functionName": "text",
-                        "line": 122
+                        "errorMessage": "Could not find signal \"textEdited\".",
+                        "functionName": "onTextEdited",
+                        "line": 133
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 71,
+                        "column": 31,
                         "durationMicroseconds": 0,
-                        "errorMessage": "Could not find signal \"textChanged\".",
-                        "functionName": "onTextChanged",
-                        "line": 122
+                        "errorMessage": "Could not find property \"text\".",
+                        "functionName": "text",
+                        "line": 139
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 39,
                         "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"text\".",
-                        "functionName": "text",
-                        "line": 126
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 108,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find signal \"textChanged\".",
-                        "functionName": "onTextChanged",
-                        "line": 126
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 39,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"text\".",
-                        "functionName": "text",
-                        "line": 130
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 70,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find signal \"textChanged\".",
-                        "functionName": "onTextChanged",
-                        "line": 130
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 39,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"text\".",
-                        "functionName": "text",
-                        "line": 134
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 81,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find signal \"textChanged\".",
-                        "functionName": "onTextChanged",
-                        "line": 134
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 30,
-                        "durationMicroseconds": 14,
-                        "errorMessage": "Cannot access value for name modelData",
-                        "functionName": "visible",
+                        "errorMessage": "Could not find signal \"textEdited\".",
+                        "functionName": "onTextEdited",
                         "line": 140
                     },
                     {
                         "codegenSuccessfull": false,
+                        "column": 31,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"text\".",
+                        "functionName": "text",
+                        "line": 146
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 39,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"textEdited\".",
+                        "functionName": "onTextEdited",
+                        "line": 147
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 31,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"text\".",
+                        "functionName": "text",
+                        "line": 153
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 39,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"textEdited\".",
+                        "functionName": "onTextEdited",
+                        "line": 154
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 30,
+                        "durationMicroseconds": 13,
+                        "errorMessage": "Cannot access value for name selectedItem",
+                        "functionName": "visible",
+                        "line": 161
+                    },
+                    {
+                        "codegenSuccessfull": false,
                         "column": 35,
                         "durationMicroseconds": 2,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "fill",
-                        "line": 142
+                        "line": 163
                     },
                     {
                         "codegenSuccessfull": false,
@@ -225,7 +241,7 @@
                         "durationMicroseconds": 14,
                         "errorMessage": "Cannot access value for name images",
                         "functionName": "icon",
-                        "line": 150
+                        "line": 171
                     },
                     {
                         "codegenSuccessfull": false,
@@ -233,31 +249,15 @@
                         "durationMicroseconds": 5,
                         "errorMessage": "Cannot access value for name notYetValidatedItems",
                         "functionName": "model",
-                        "line": 151
+                        "line": 172
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 27,
                         "durationMicroseconds": 22,
-                        "errorMessage": "Cannot access value for name modelData",
+                        "errorMessage": "Cannot access value for name selectedItem",
                         "functionName": "blinking",
-                        "line": 154
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 35,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find signal \"triggered\".",
-                        "functionName": "onTriggered",
-                        "line": 160
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 35,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find signal \"triggered\".",
-                        "functionName": "onTriggered",
-                        "line": 160
+                        "line": 176
                     },
                     {
                         "codegenSuccessfull": false,
@@ -265,7 +265,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"enabled\".",
                         "functionName": "enabled",
-                        "line": 167
+                        "line": 180
                     },
                     {
                         "codegenSuccessfull": false,
@@ -273,67 +273,19 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find signal \"triggered\".",
                         "functionName": "onTriggered",
-                        "line": 168
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 35,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find signal \"triggered\".",
-                        "functionName": "onTriggered",
-                        "line": 168
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 34,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"source\".",
-                        "functionName": "source",
-                        "line": 166
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 33,
-                        "durationMicroseconds": 8,
-                        "errorMessage": "Cannot access value for name _ikals",
-                        "functionName": "implicitHeight",
-                        "line": 177
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 27,
-                        "durationMicroseconds": 12,
-                        "errorMessage": "Cannot access value for name images",
-                        "functionName": "icon",
-                        "line": 182
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 28,
-                        "durationMicroseconds": 6,
-                        "errorMessage": "Cannot access value for name validatedItems",
-                        "functionName": "model",
                         "line": 183
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 31,
-                        "durationMicroseconds": 6,
-                        "errorMessage": "Cannot access value for name _finaliserAction",
-                        "functionName": "blinking",
-                        "line": 185
-                    },
-                    {
-                        "codegenSuccessfull": false,
                         "column": 35,
                         "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"fill\".",
-                        "functionName": "fill",
-                        "line": 184
+                        "errorMessage": "Could not find signal \"triggered\".",
+                        "functionName": "onTriggered",
+                        "line": 183
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 34,
+                        "column": 30,
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"enabled\".",
                         "functionName": "enabled",
@@ -341,11 +293,75 @@
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 39,
+                        "column": 35,
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find signal \"triggered\".",
                         "functionName": "onTriggered",
-                        "line": 193
+                        "line": 191
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 35,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"triggered\".",
+                        "functionName": "onTriggered",
+                        "line": 191
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 34,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"source\".",
+                        "functionName": "source",
+                        "line": 189
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 33,
+                        "durationMicroseconds": 8,
+                        "errorMessage": "Cannot access value for name _ikals",
+                        "functionName": "implicitHeight",
+                        "line": 200
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 27,
+                        "durationMicroseconds": 14,
+                        "errorMessage": "Cannot access value for name images",
+                        "functionName": "icon",
+                        "line": 205
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 6,
+                        "errorMessage": "Cannot access value for name validatedItems",
+                        "functionName": "model",
+                        "line": 206
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 31,
+                        "durationMicroseconds": 6,
+                        "errorMessage": "Cannot access value for name _finaliserAction",
+                        "functionName": "blinking",
+                        "line": 208
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 35,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"fill\".",
+                        "functionName": "fill",
+                        "line": 207
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 34,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"enabled\".",
+                        "functionName": "enabled",
+                        "line": 213
                     },
                     {
                         "codegenSuccessfull": false,
@@ -353,15 +369,23 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find signal \"triggered\".",
                         "functionName": "onTriggered",
-                        "line": 193
+                        "line": 216
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 39,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"triggered\".",
+                        "functionName": "onTriggered",
+                        "line": 216
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 30,
-                        "durationMicroseconds": 23,
-                        "errorMessage": "Cannot access value for name modelData",
+                        "durationMicroseconds": 22,
+                        "errorMessage": "Cannot access value for name selectedItem",
                         "functionName": "visible",
-                        "line": 200
+                        "line": 224
                     },
                     {
                         "codegenSuccessfull": false,
@@ -369,7 +393,7 @@
                         "durationMicroseconds": 2,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "fill",
-                        "line": 202
+                        "line": 226
                     },
                     {
                         "codegenSuccessfull": false,
@@ -377,7 +401,15 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"visible\".",
                         "functionName": "visible",
-                        "line": 211
+                        "line": 235
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"width\".",
+                        "functionName": "width",
+                        "line": 240
                     },
                     {
                         "codegenSuccessfull": false,
@@ -385,7 +417,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"right\".",
                         "functionName": "right",
-                        "line": 213
+                        "line": 237
                     },
                     {
                         "codegenSuccessfull": false,
@@ -393,7 +425,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"top\".",
                         "functionName": "top",
-                        "line": 214
+                        "line": 238
                     },
                     {
                         "codegenSuccessfull": false,
@@ -401,23 +433,23 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"bottom\".",
                         "functionName": "bottom",
-                        "line": 215
+                        "line": 239
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 5,
+                        "durationMicroseconds": 4,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "color",
-                        "line": 229
+                        "line": 253
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 3,
+                        "durationMicroseconds": 2,
                         "errorMessage": "Cannot access value for name height",
                         "functionName": "width",
-                        "line": 231
+                        "line": 255
                     },
                     {
                         "codegenSuccessfull": false,
@@ -425,15 +457,15 @@
                         "durationMicroseconds": 3,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "verticalCenter",
-                        "line": 233
+                        "line": 257
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 51,
-                        "durationMicroseconds": 5,
+                        "durationMicroseconds": 6,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "verticalCenterOffset",
-                        "line": 234
+                        "line": 258
                     },
                     {
                         "codegenSuccessfull": false,
@@ -441,7 +473,7 @@
                         "durationMicroseconds": 3,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "horizontalCenter",
-                        "line": 235
+                        "line": 259
                     },
                     {
                         "codegenSuccessfull": false,
@@ -449,7 +481,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"fill\".",
                         "functionName": "fill",
-                        "line": 241
+                        "line": 265
                     },
                     {
                         "codegenSuccessfull": false,
@@ -457,7 +489,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find signal \"triggered\".",
                         "functionName": "onTriggered",
-                        "line": 256
+                        "line": 281
                     },
                     {
                         "codegenSuccessfull": false,
@@ -465,23 +497,23 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find signal \"triggered\".",
                         "functionName": "onTriggered",
-                        "line": 256
+                        "line": 281
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 29,
-                        "durationMicroseconds": 6,
+                        "durationMicroseconds": 5,
                         "errorMessage": "Cannot access value for name _dialog",
                         "functionName": "target",
-                        "line": 266
+                        "line": 291
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 21,
-                        "durationMicroseconds": 13,
+                        "durationMicroseconds": 8,
                         "errorMessage": "Cannot access value for name _itemSelectorTable",
                         "functionName": "onAccepted",
-                        "line": 267
+                        "line": 292
                     },
                     {
                         "codegenSuccessfull": false,
@@ -489,7 +521,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"x\".",
                         "functionName": "x",
-                        "line": 292
+                        "line": 317
                     },
                     {
                         "codegenSuccessfull": false,
@@ -497,7 +529,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"y\".",
                         "functionName": "y",
-                        "line": 293
+                        "line": 318
                     },
                     {
                         "codegenSuccessfull": false,
@@ -505,7 +537,7 @@
                         "durationMicroseconds": 101,
                         "errorMessage": "Cannot load property desc from (component in PageSorties.qml)::item with type QVariant.",
                         "functionName": "addToCurrent",
-                        "line": 299
+                        "line": 324
                     },
                     {
                         "codegenSuccessfull": false,
@@ -513,7 +545,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find signal \"visibleChanged\".",
                         "functionName": "onVisibleChanged",
-                        "line": 324
+                        "line": 349
                     },
                     {
                         "codegenSuccessfull": false,
@@ -521,7 +553,7 @@
                         "durationMicroseconds": 4,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "horizontalCenter",
-                        "line": 335
+                        "line": 360
                     },
                     {
                         "codegenSuccessfull": false,
@@ -529,7 +561,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"horizontalCenter\".",
                         "functionName": "horizontalCenter",
-                        "line": 339
+                        "line": 364
                     },
                     {
                         "codegenSuccessfull": false,
@@ -537,7 +569,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"text\".",
                         "functionName": "text",
-                        "line": 344
+                        "line": 369
                     },
                     {
                         "codegenSuccessfull": false,
@@ -545,15 +577,15 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"weight\".",
                         "functionName": "weight",
-                        "line": 346
+                        "line": 371
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 34,
+                        "durationMicroseconds": 53,
                         "errorMessage": "",
                         "functionName": "centerIn",
-                        "line": 352
+                        "line": 377
                     },
                     {
                         "codegenSuccessfull": false,
@@ -561,7 +593,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"verticalCenter\".",
                         "functionName": "verticalCenter",
-                        "line": 357
+                        "line": 382
                     },
                     {
                         "codegenSuccessfull": false,
@@ -569,7 +601,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"text\".",
                         "functionName": "text",
-                        "line": 365
+                        "line": 390
                     },
                     {
                         "codegenSuccessfull": false,
@@ -577,7 +609,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find signal \"textChanged\".",
                         "functionName": "onTextChanged",
-                        "line": 366
+                        "line": 391
                     },
                     {
                         "codegenSuccessfull": false,
@@ -585,7 +617,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find signal \"accepted\".",
                         "functionName": "onAccepted",
-                        "line": 369
+                        "line": 394
                     },
                     {
                         "codegenSuccessfull": false,
@@ -593,7 +625,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"x\".",
                         "functionName": "x",
-                        "line": 381
+                        "line": 406
                     },
                     {
                         "codegenSuccessfull": false,
@@ -601,7 +633,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"y\".",
                         "functionName": "y",
-                        "line": 382
+                        "line": 407
                     },
                     {
                         "codegenSuccessfull": false,
@@ -609,7 +641,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"height\".",
                         "functionName": "height",
-                        "line": 385
+                        "line": 410
                     },
                     {
                         "codegenSuccessfull": false,
@@ -617,7 +649,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"width\".",
                         "functionName": "width",
-                        "line": 386
+                        "line": 411
                     },
                     {
                         "codegenSuccessfull": false,
@@ -625,15 +657,15 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"text\".",
                         "functionName": "text",
-                        "line": 393
+                        "line": 418
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 20,
-                        "durationMicroseconds": 14,
+                        "durationMicroseconds": 16,
                         "errorMessage": "Cannot access value for name selectedItem",
                         "functionName": "model",
-                        "line": 402
+                        "line": 427
                     },
                     {
                         "codegenSuccessfull": false,
@@ -641,15 +673,31 @@
                         "durationMicroseconds": 13,
                         "errorMessage": "Instruction \"generate_PushBlockContext\" not implemented",
                         "functionName": "maxCountLetters",
-                        "line": 403
+                        "line": 428
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 39,
+                        "durationMicroseconds": 57,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "columnChars",
+                        "line": 437
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 44,
+                        "durationMicroseconds": 96,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "columnAlignments",
+                        "line": 443
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 19,
+                        "durationMicroseconds": 17,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 400
+                        "line": 425
                     },
                     {
                         "codegenSuccessfull": false,
@@ -657,55 +705,159 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"text\".",
                         "functionName": "text",
-                        "line": 415
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 23,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"text\".",
-                        "functionName": "text",
-                        "line": 424
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 36,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"verticalAlignment\".",
-                        "functionName": "verticalAlignment",
-                        "line": 438
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 30,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"family\".",
-                        "functionName": "family",
-                        "line": 434
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 30,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"weight\".",
-                        "functionName": "weight",
-                        "line": 436
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 45,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"verticalCenter\".",
-                        "functionName": "verticalCenter",
-                        "line": 441
+                        "line": 452
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 67,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"width\".",
+                        "functionName": "width",
+                        "line": 453
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 28,
+                        "durationMicroseconds": 26,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 462
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 28,
+                        "durationMicroseconds": 26,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 471
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 32,
+                        "durationMicroseconds": 58,
+                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "functionName": "model",
+                        "line": 479
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 35,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"text\".",
+                        "functionName": "text",
+                        "line": 487
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 50,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"horizontalAlignment\".",
+                        "functionName": "horizontalAlignment",
+                        "line": 491
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 52,
+                        "durationMicroseconds": 10,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "preferredWidth",
+                        "line": 494
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 24,
+                        "durationMicroseconds": 22,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 504
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 39,
+                        "durationMicroseconds": 80,
+                        "errorMessage": "Cannot access value for name database",
+                        "functionName": "theItem",
+                        "line": 508
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 15,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 512
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 43,
+                        "durationMicroseconds": 34,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 516
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 32,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "Cannot access value for name theItem",
+                        "functionName": "model",
+                        "line": 520
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 35,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"text\".",
+                        "functionName": "text",
+                        "line": 536
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 50,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"horizontalAlignment\".",
+                        "functionName": "horizontalAlignment",
+                        "line": 547
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 48,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"verticalAlignment\".",
+                        "functionName": "verticalAlignment",
+                        "line": 548
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 52,
+                        "durationMicroseconds": 16,
+                        "errorMessage": "Cannot access value for name _dialogListeLanceeListView",
+                        "functionName": "preferredWidth",
+                        "line": 533
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 42,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"family\".",
+                        "functionName": "family",
+                        "line": 543
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 42,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"weight\".",
+                        "functionName": "weight",
+                        "line": 545
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 63,
                         "errorMessage": "Cannot access value for name colors",
                         "functionName": "color",
-                        "line": 449
+                        "line": 558
                     },
                     {
                         "codegenSuccessfull": false,
@@ -713,7 +865,7 @@
                         "durationMicroseconds": 4,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "horizontalCenter",
-                        "line": 453
+                        "line": 562
                     },
                     {
                         "codegenSuccessfull": false,
@@ -721,7 +873,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find signal \"clicked\".",
                         "functionName": "onClicked",
-                        "line": 460
+                        "line": 569
                     },
                     {
                         "codegenSuccessfull": false,
@@ -729,7 +881,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"source\".",
                         "functionName": "source",
-                        "line": 458
+                        "line": 567
                     },
                     {
                         "codegenSuccessfull": false,
@@ -737,7 +889,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find signal \"clicked\".",
                         "functionName": "onClicked",
-                        "line": 470
+                        "line": 619
                     },
                     {
                         "codegenSuccessfull": false,
@@ -745,7 +897,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"x\".",
                         "functionName": "x",
-                        "line": 484
+                        "line": 633
                     },
                     {
                         "codegenSuccessfull": false,
@@ -753,7 +905,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"y\".",
                         "functionName": "y",
-                        "line": 485
+                        "line": 634
                     },
                     {
                         "codegenSuccessfull": false,
@@ -761,15 +913,15 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"fill\".",
                         "functionName": "fill",
-                        "line": 491
+                        "line": 640
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 16,
+                        "durationMicroseconds": 14,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 500
+                        "line": 649
                     },
                     {
                         "codegenSuccessfull": false,
@@ -777,7 +929,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"width\".",
                         "functionName": "width",
-                        "line": 506
+                        "line": 655
                     },
                     {
                         "codegenSuccessfull": false,
@@ -785,7 +937,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"horizontalAlignment\".",
                         "functionName": "horizontalAlignment",
-                        "line": 509
+                        "line": 658
                     },
                     {
                         "codegenSuccessfull": false,
@@ -793,7 +945,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"text\".",
                         "functionName": "text",
-                        "line": 513
+                        "line": 662
                     },
                     {
                         "codegenSuccessfull": false,
@@ -801,7 +953,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"horizontalCenter\".",
                         "functionName": "horizontalCenter",
-                        "line": 514
+                        "line": 664
                     },
                     {
                         "codegenSuccessfull": false,
@@ -809,15 +961,15 @@
                         "durationMicroseconds": 10,
                         "errorMessage": "Cannot retrieve a non-object type by ID: _validateLineDialogTextField",
                         "functionName": "height",
-                        "line": 518
+                        "line": 668
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 35,
+                        "durationMicroseconds": 28,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
-                        "line": 519
+                        "line": 669
                     },
                     {
                         "codegenSuccessfull": false,
@@ -825,7 +977,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"verticalCenter\".",
                         "functionName": "verticalCenter",
-                        "line": 524
+                        "line": 674
                     },
                     {
                         "codegenSuccessfull": false,
@@ -833,7 +985,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"horizontalAlignment\".",
                         "functionName": "horizontalAlignment",
-                        "line": 531
+                        "line": 681
                     },
                     {
                         "codegenSuccessfull": false,
@@ -841,23 +993,23 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find signal \"textChanged\".",
                         "functionName": "onTextChanged",
-                        "line": 538
+                        "line": 689
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 35,
-                        "durationMicroseconds": 28,
+                        "durationMicroseconds": 43,
                         "errorMessage": "Cannot access value for name _validateLineDialog",
                         "functionName": "when",
-                        "line": 535
+                        "line": 685
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 36,
-                        "durationMicroseconds": 24,
+                        "durationMicroseconds": 43,
                         "errorMessage": "Cannot access value for name _validateLineDialog",
                         "functionName": "value",
-                        "line": 536
+                        "line": 686
                     },
                     {
                         "codegenSuccessfull": false,
@@ -865,171 +1017,11 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"verticalCenter\".",
                         "functionName": "verticalCenter",
-                        "line": 550
+                        "line": 701
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 27,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"text\".",
-                        "functionName": "text",
-                        "line": 554
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 47,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"horizontalCenter\".",
-                        "functionName": "horizontalCenter",
-                        "line": 563
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 34,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"family\".",
-                        "functionName": "family",
-                        "line": 564
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 47,
-                        "durationMicroseconds": 4,
-                        "errorMessage": "Cannot access value for name parent",
-                        "functionName": "horizontalCenter",
-                        "line": 573
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 36,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find signal \"clicked\".",
-                        "functionName": "onClicked",
-                        "line": 580
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 38,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"source\".",
-                        "functionName": "source",
-                        "line": 578
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 36,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find signal \"clicked\".",
-                        "functionName": "onClicked",
-                        "line": 591
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 38,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"source\".",
-                        "functionName": "source",
-                        "line": 589
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 28,
-                        "durationMicroseconds": 14,
-                        "errorMessage": "",
-                        "functionName": "onCompleted",
-                        "line": 601
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 22,
-                        "durationMicroseconds": 22,
-                        "errorMessage": "method callback cannot be resolved.",
-                        "functionName": "onTriggered",
-                        "line": 636
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 30,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"horizontalAlignment\".",
-                        "functionName": "horizontalAlignment",
-                        "line": 656
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 28,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"verticalAlignment\".",
-                        "functionName": "verticalAlignment",
-                        "line": 657
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 23,
-                        "durationMicroseconds": 15,
-                        "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 661
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 27,
-                        "durationMicroseconds": 15,
-                        "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 667
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 16,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"elide\".",
-                        "functionName": "elide",
-                        "line": 674
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 22,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"family\".",
-                        "functionName": "family",
-                        "line": 672
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 21,
-                        "durationMicroseconds": 25,
-                        "errorMessage": "",
-                        "functionName": "height",
-                        "line": 684
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 29,
-                        "durationMicroseconds": 25,
-                        "errorMessage": "",
-                        "functionName": "bottom",
-                        "line": 685
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 40,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Cannot resolve property type Action for binding on actions.",
-                        "functionName": "actions",
-                        "line": 696
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 20,
-                        "durationMicroseconds": 23,
-                        "errorMessage": "",
-                        "functionName": "width",
-                        "line": 700
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 23,
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"text\".",
                         "functionName": "text",
@@ -1037,107 +1029,243 @@
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 23,
+                        "column": 47,
                         "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"text\".",
-                        "functionName": "text",
-                        "line": 711
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 23,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"text\".",
-                        "functionName": "text",
+                        "errorMessage": "Could not find property \"horizontalCenter\".",
+                        "functionName": "horizontalCenter",
                         "line": 717
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 38,
+                        "column": 34,
                         "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"horizontalAlignment\".",
-                        "functionName": "horizontalAlignment",
-                        "line": 719
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 26,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"visible\".",
-                        "functionName": "visible",
-                        "line": 724
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 23,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"text\".",
-                        "functionName": "text",
-                        "line": 725
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 38,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"horizontalAlignment\".",
-                        "functionName": "horizontalAlignment",
-                        "line": 727
+                        "errorMessage": "Could not find property \"family\".",
+                        "functionName": "family",
+                        "line": 718
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 11,
-                        "errorMessage": "Cannot access value for name actions",
-                        "functionName": "model",
-                        "line": 730
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 33,
                         "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"action\".",
-                        "functionName": "action",
-                        "line": 737
+                        "errorMessage": "Could not find property \"width\".",
+                        "functionName": "width",
+                        "line": 724
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 48,
-                        "durationMicroseconds": 9,
-                        "errorMessage": "Cannot access value for name _tableRowComponent",
-                        "functionName": "rowIndex",
-                        "line": 740
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 51,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find property \"horizontalCenter\".",
+                        "column": 47,
+                        "durationMicroseconds": 4,
+                        "errorMessage": "Cannot access value for name parent",
                         "functionName": "horizontalCenter",
-                        "line": 738
+                        "line": 728
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 45,
+                        "column": 36,
                         "durationMicroseconds": 0,
-                        "errorMessage": "Cannot resolve property type Action for binding on tableActions.",
-                        "functionName": "tableActions",
-                        "line": 764
+                        "errorMessage": "Could not find signal \"clicked\".",
+                        "functionName": "onClicked",
+                        "line": 736
                     },
                     {
                         "codegenSuccessfull": false,
-                        "column": 43,
+                        "column": 38,
                         "durationMicroseconds": 0,
-                        "errorMessage": "Cannot resolve property type Action for binding on rowActions.",
-                        "functionName": "rowActions",
-                        "line": 765
+                        "errorMessage": "Could not find property \"source\".",
+                        "functionName": "source",
+                        "line": 734
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 36,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"clicked\".",
+                        "functionName": "onClicked",
+                        "line": 748
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 38,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"source\".",
+                        "functionName": "source",
+                        "line": 746
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 12,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"x\".",
+                        "functionName": "x",
+                        "line": 760
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 12,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"y\".",
+                        "functionName": "y",
+                        "line": 761
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 21,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"accepted\".",
+                        "functionName": "onAccepted",
+                        "line": 767
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 27,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"fill\".",
+                        "functionName": "fill",
+                        "line": 775
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 17,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 784
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 12,
-                        "errorMessage": "Cannot access value for name images",
-                        "functionName": "icon",
-                        "line": 767
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"width\".",
+                        "functionName": "width",
+                        "line": 790
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 42,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"horizontalAlignment\".",
+                        "functionName": "horizontalAlignment",
+                        "line": 793
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"width\".",
+                        "functionName": "width",
+                        "line": 797
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 42,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"horizontalAlignment\".",
+                        "functionName": "horizontalAlignment",
+                        "line": 799
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"width\".",
+                        "functionName": "width",
+                        "line": 804
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 47,
+                        "durationMicroseconds": 4,
+                        "errorMessage": "Cannot access value for name parent",
+                        "functionName": "horizontalCenter",
+                        "line": 808
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 36,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"clicked\".",
+                        "functionName": "onClicked",
+                        "line": 816
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 38,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"source\".",
+                        "functionName": "source",
+                        "line": 814
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 36,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"clicked\".",
+                        "functionName": "onClicked",
+                        "line": 828
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 38,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"source\".",
+                        "functionName": "source",
+                        "line": 826
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 28,
+                        "durationMicroseconds": 13,
+                        "errorMessage": "",
+                        "functionName": "onCompleted",
+                        "line": 838
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 22,
+                        "durationMicroseconds": 16,
+                        "errorMessage": "method callback cannot be resolved.",
+                        "functionName": "onTriggered",
+                        "line": 873
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 30,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"horizontalAlignment\".",
+                        "functionName": "horizontalAlignment",
+                        "line": 893
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"verticalAlignment\".",
+                        "functionName": "verticalAlignment",
+                        "line": 894
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 13,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 898
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 17,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 904
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 16,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"elide\".",
+                        "functionName": "elide",
+                        "line": 911
                     },
                     {
                         "codegenSuccessfull": false,
@@ -1145,39 +1273,39 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"family\".",
                         "functionName": "family",
-                        "line": 759
+                        "line": 909
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 21,
+                        "durationMicroseconds": 22,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 921
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 29,
+                        "durationMicroseconds": 23,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 922
                     },
                     {
                         "codegenSuccessfull": false,
+                        "column": 40,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type Action for binding on actions.",
+                        "functionName": "actions",
+                        "line": 933
+                    },
+                    {
+                        "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 7,
-                        "errorMessage": "Cannot access value for name _sortieItems",
+                        "durationMicroseconds": 21,
+                        "errorMessage": "",
                         "functionName": "width",
-                        "line": 774
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 25,
-                        "durationMicroseconds": 7,
-                        "errorMessage": "Cannot access value for name _sortieItems",
-                        "functionName": "source",
-                        "line": 778
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 24,
-                        "durationMicroseconds": 56,
-                        "errorMessage": "Cannot access value for name colors",
-                        "functionName": "color",
-                        "line": 779
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 41,
-                        "durationMicroseconds": 5,
-                        "errorMessage": "Cannot access value for name parent",
-                        "functionName": "verticalCenter",
-                        "line": 782
+                        "line": 937
                     },
                     {
                         "codegenSuccessfull": false,
@@ -1185,7 +1313,183 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"text\".",
                         "functionName": "text",
-                        "line": 786
+                        "line": 941
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 38,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"horizontalAlignment\".",
+                        "functionName": "horizontalAlignment",
+                        "line": 943
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 23,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"text\".",
+                        "functionName": "text",
+                        "line": 948
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 23,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"text\".",
+                        "functionName": "text",
+                        "line": 954
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 23,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"text\".",
+                        "functionName": "text",
+                        "line": 960
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 38,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"horizontalAlignment\".",
+                        "functionName": "horizontalAlignment",
+                        "line": 962
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 26,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"visible\".",
+                        "functionName": "visible",
+                        "line": 967
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 23,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"text\".",
+                        "functionName": "text",
+                        "line": 968
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 38,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"horizontalAlignment\".",
+                        "functionName": "horizontalAlignment",
+                        "line": 970
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 8,
+                        "errorMessage": "Cannot access value for name actions",
+                        "functionName": "model",
+                        "line": 973
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 33,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"action\".",
+                        "functionName": "action",
+                        "line": 980
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 48,
+                        "durationMicroseconds": 10,
+                        "errorMessage": "Cannot access value for name _tableRowComponent",
+                        "functionName": "rowIndex",
+                        "line": 983
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 51,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"horizontalCenter\".",
+                        "functionName": "horizontalCenter",
+                        "line": 981
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 45,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type Action for binding on tableActions.",
+                        "functionName": "tableActions",
+                        "line": 1007
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 43,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type Action for binding on rowActions.",
+                        "functionName": "rowActions",
+                        "line": 1008
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 13,
+                        "errorMessage": "Cannot access value for name images",
+                        "functionName": "icon",
+                        "line": 1010
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 22,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"family\".",
+                        "functionName": "family",
+                        "line": 1002
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 32,
+                        "durationMicroseconds": 10,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: _sortieItems",
+                        "functionName": "preferredWidth",
+                        "line": 1013
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 8,
+                        "errorMessage": "Cannot access value for name _sortieItems",
+                        "functionName": "width",
+                        "line": 1018
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 25,
+                        "durationMicroseconds": 7,
+                        "errorMessage": "Cannot access value for name _sortieItems",
+                        "functionName": "source",
+                        "line": 1022
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 55,
+                        "errorMessage": "Cannot access value for name colors",
+                        "functionName": "color",
+                        "line": 1023
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 41,
+                        "durationMicroseconds": 3,
+                        "errorMessage": "Cannot access value for name parent",
+                        "functionName": "verticalCenter",
+                        "line": 1026
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 23,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"text\".",
+                        "functionName": "text",
+                        "line": 1030
                     },
                     {
                         "codegenSuccessfull": false,
@@ -1193,7 +1497,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"color\".",
                         "functionName": "color",
-                        "line": 788
+                        "line": 1032
                     },
                     {
                         "codegenSuccessfull": false,
@@ -1201,39 +1505,39 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"elide\".",
                         "functionName": "elide",
-                        "line": 789
+                        "line": 1033
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 20,
-                        "durationMicroseconds": 26,
+                        "durationMicroseconds": 27,
                         "errorMessage": "Cannot access value for name Animation",
                         "functionName": "loops",
-                        "line": 796
+                        "line": 1040
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 21,
-                        "durationMicroseconds": 25,
+                        "durationMicroseconds": 27,
                         "errorMessage": "Cannot access value for name colors",
                         "functionName": "to",
-                        "line": 799
+                        "line": 1043
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 22,
+                        "durationMicroseconds": 23,
                         "errorMessage": "",
                         "functionName": "right",
-                        "line": 810
+                        "line": 1054
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 20,
+                        "durationMicroseconds": 21,
                         "errorMessage": "",
                         "functionName": "bottom",
-                        "line": 811
+                        "line": 1055
                     },
                     {
                         "codegenSuccessfull": false,
@@ -1241,7 +1545,7 @@
                         "durationMicroseconds": 8,
                         "errorMessage": "Cannot retrieve a non-object type by ID: _sortieItems",
                         "functionName": "model",
-                        "line": 815
+                        "line": 1059
                     },
                     {
                         "codegenSuccessfull": false,
@@ -1249,7 +1553,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"action\".",
                         "functionName": "action",
-                        "line": 821
+                        "line": 1065
                     },
                     {
                         "codegenSuccessfull": false,
@@ -1257,15 +1561,15 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"weight\".",
                         "functionName": "weight",
-                        "line": 822
+                        "line": 1066
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 14,
+                        "durationMicroseconds": 16,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 829
+                        "line": 1073
                     },
                     {
                         "codegenSuccessfull": false,
@@ -1273,7 +1577,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"width\".",
                         "functionName": "width",
-                        "line": 835
+                        "line": 1079
                     },
                     {
                         "codegenSuccessfull": false,
@@ -1281,15 +1585,15 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"width\".",
                         "functionName": "width",
-                        "line": 845
+                        "line": 1089
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 71,
-                        "errorMessage": "Cannot access value for name database",
+                        "durationMicroseconds": 44,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: _sortieItemDelegate",
                         "functionName": "texts",
-                        "line": 846
+                        "line": 1090
                     },
                     {
                         "codegenSuccessfull": false,
@@ -1297,7 +1601,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Cannot resolve property type Action for binding on actions.",
                         "functionName": "actions",
-                        "line": 855
+                        "line": 1097
                     },
                     {
                         "codegenSuccessfull": false,
@@ -1305,15 +1609,23 @@
                         "durationMicroseconds": 4,
                         "errorMessage": "Cannot retrieve a non-object type by ID: _sortieItemDelegate",
                         "functionName": "rowIndex",
-                        "line": 856
+                        "line": 1098
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 64,
-                        "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find property \"width\".",
+                        "functionName": "width",
+                        "line": 1103
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 21,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: _sortieItems",
                         "functionName": "texts",
-                        "line": 864
+                        "line": 1107
                     },
                     {
                         "codegenSuccessfull": false,
@@ -1321,7 +1633,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"window\".",
                         "functionName": "window",
-                        "line": 863
+                        "line": 1106
                     }
                 ],
                 "filepath": "PageSorties.qml"

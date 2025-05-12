@@ -24,6 +24,7 @@ Page {
         enablePreconisationsFilter: false
         
         columns: [
+            TableModelColumn { display: "guid" },
             TableModelColumn { display: "desc" },
             TableModelColumn { display: "ref" }
         ]
